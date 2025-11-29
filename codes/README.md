@@ -12,13 +12,15 @@ And some others known.
 ## for c++
 Include complejos.hpp at your code
 ``` c++
-#include "complejos.hpp"
+#include "complejos.hpp" // Including the header file
 ...
 ```
 Create a number and operate
 ``` c++
 ...
-ComplexNumber z(3, 4);
+ComplexNumber z(3, 4); // Init complex number class with 3 as the real part and 4 as the imaginary part
+
+// Some operations
 
 ComplexNumber a = z * 5, b = z.conjugate();
 double m = z.modulus();
@@ -27,17 +29,21 @@ ComplexNumber c = m / z, d = a * b, e = 8 - d;
 ## for python
 Import complejos.py at your code
 ``` c++
-from complejos import ComplexNumber as CN
+from complejos import ComplexNumber as CN # Including the module
 ...
 ```
 Create a number and operate
 ``` c++
 ...
-z = CN(3, 4)
+z = CN(3, 4) # Init complex number class with 3 as the real part and 4 as the imaginary part
+
+# Some operations
 
 a = z * 5, b = z.conjugate();
 m = z.modulus();
 c = m / z, d = a * b, e = 8 - d;
+
+# Print directly with print
 
 print("z:", z, ", a", a, ", b", b, ", c", c, ", d", d, ", m", m)
 ```
