@@ -54,6 +54,6 @@ print("z:", z, ", a", a, ", b", b, ", c", c, ", d", d, ", m", m)
 # Build python module
 
 to build just run:
-''' sh
+``` sh
 make
-'''
+```
