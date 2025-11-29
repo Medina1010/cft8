@@ -26,6 +26,9 @@ ComplexNumber a = z * 5, b = z.conjugate();
 double m = z.modulus();
 ComplexNumber c = m / z, d = a * b, e = 8 - d;
 ```
+
+and add _complejos.cpp_ to your source files at compiling.
+
 ## for python
 Import complejos.py at your code
 ``` python
@@ -47,4 +50,10 @@ c = m / z, d = a * b, e = 8 - d;
 
 print("z:", z, ", a", a, ", b", b, ", c", c, ", d", d, ", m", m)
 ```
-#
+
+# Build python module
+
+to build just run:
+''' sh
+make
+'''
