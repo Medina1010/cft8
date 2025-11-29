@@ -43,7 +43,7 @@ a = z * 5, b = z.conjugate();
 m = z.modulus();
 c = m / z, d = a * b, e = 8 - d;
 
-# Print directly with print
+# Print directly with print(...)
 
 print("z:", z, ", a", a, ", b", b, ", c", c, ", d", d, ", m", m)
 ```
