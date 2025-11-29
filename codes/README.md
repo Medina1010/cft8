@@ -28,12 +28,12 @@ ComplexNumber c = m / z, d = a * b, e = 8 - d;
 ```
 ## for python
 Import complejos.py at your code
-``` c++
+``` python
 from complejos import ComplexNumber as CN # Including the module
 ...
 ```
 Create a number and operate
-``` c++
+``` python
 ...
 z = CN(3, 4) # Init complex number class with 3 as the real part and 4 as the imaginary part
 
