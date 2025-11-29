@@ -9,7 +9,7 @@ build:
 	swig -c++ -python $(INTERFACE).i
 	mv $(INTERFACE).py $(FINAL)/$(INTERFACE).py 
 	g++ $(PYTHON_CFLAGS) -c $(SOURCE)/$(NAME).cpp $(INTERFACE)_wrap.cxx
-	g++ -shared $(PYTHON_LDFLAGS) $(NAME).o $(INTERFACE)_wrap.o -o $(FINAL)/_$(NAME).so
+	g++ -shared $(PYTHON_LDFLAGS) $(NAME).o $(INTERFACE)_wrap.o -o _$(NAME).so
 clean:
 	rm *.o
 	rm $(INTERFACE)_wrap.cxx
